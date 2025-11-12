@@ -13,7 +13,5 @@ int main()
     
     cout << fixed << setprecision(3) <<  area << endl;
 
-
-
     return 0;
 }
