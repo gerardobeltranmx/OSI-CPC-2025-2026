@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    unsigned int A, B, C;
+    int A, B, C;
 
     cin >> A >> B;
     C = A + B;
