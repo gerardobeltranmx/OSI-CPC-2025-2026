@@ -11,7 +11,7 @@ int main()
     
     area = PI * radio * radio;
     
-    cout << fixed<< setprecision(2)<< area << endl;   
+    cout << fixed<< setprecision(2)<< "El radio es: " << area << endl;   
     
     return 0;
 }
