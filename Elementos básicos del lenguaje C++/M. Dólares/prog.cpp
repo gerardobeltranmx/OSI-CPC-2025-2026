@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    unsigned short N, K, P;
+    unsigned int N, K, P;
 
     cin >> N;
     cin >> K;
