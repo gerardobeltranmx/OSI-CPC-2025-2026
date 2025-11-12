@@ -9,7 +9,7 @@ int main()
     
     cin >> altura;
     
-    area = (base * altura) / 2.0;
+    area = (base * altura) / 2;
     
     cout << fixed << setprecision(3) <<  area << endl;
 
