@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    double base, altura, area;
+    double base, altura, area, w;
 
     cin >> base;
     
