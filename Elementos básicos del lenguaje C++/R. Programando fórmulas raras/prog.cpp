@@ -6,7 +6,6 @@ using namespace std;
 int main()
 {
     double x, y ,z, resultado;
-   // const double PI = 3.1416;
    // datos de entrada 
    cin >> x >> y >> z;
 
