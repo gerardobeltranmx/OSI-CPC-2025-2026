@@ -5,13 +5,16 @@ int main()
     int a;
     cin >> a;
 
-    if (a==0){
+    if (a==0)
+    {
         cout << "CERO" << endl;
     }
-    else if (a % 2 == 0){
+    else if (a % 2 == 0)
+    {
         cout << "PAR" << endl;
     }
-    else{
+    else
+    {
         cout << "IMPAR" << endl;
     }
     
