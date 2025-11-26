@@ -14,6 +14,7 @@ int main()
 
     y = (c2 - a2*( c1 - b1 * y / a1 )) / b2 ;
     
-    
+    cout << fixed << x << " " << y << endl;
+
     return 0;
 }
