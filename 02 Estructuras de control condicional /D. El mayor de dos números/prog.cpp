@@ -8,9 +8,10 @@ int main()
     if (x1 > x2){
         cout << x1 << endl;
     }
-    else{
+    else {
         cout << x2 << endl;
     }
+    
 
     return 0;
 }
