@@ -6,10 +6,10 @@ int main()
     cin >> n >> m;
     a = n / m;
     b = n % m;
-    if ( b == 0 ){
+    if ( b == 0 ){ // Es división exacta
         cout << a << endl;  
     }
-    else {
+    else { // si hay residuo
         cout << a <<  " " << b << "/" << m << endl;
     }
          
