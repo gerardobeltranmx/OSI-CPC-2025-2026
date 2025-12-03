@@ -12,7 +12,6 @@ int main()
        cout << "Febrero" << endl;
     ...
     */
-
     switch (N){
         case 1:
             cout << "Enero" << endl;
