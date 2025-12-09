@@ -7,17 +7,16 @@ int main()
     cin >> N;
 
     for (i=1; i<=N; i++){
-
         cin >> C;
 
-         if (C % 2 == 0){
+        if (C % 2 == 0){
             sumaA=sumaA+C;
             cuentaA++;
-         }
-         else {
+        }
+        else {
             sumaN=sumaN+C;
             cuentaN++;
-         }
+        }
     }     
     promedioA = sumaA / cuentaA;
     promedioN = sumaN / cuentaN;
