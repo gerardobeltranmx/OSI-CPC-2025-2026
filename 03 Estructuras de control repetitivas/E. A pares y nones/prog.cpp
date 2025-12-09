@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int N, i, C, sumaA=0, sumaN=0, cuantaA=0;
+    int N, i, C, sumaA=0, sumaN=0, cuentaA=0, cuentaN=0;
     int promedioA, promedioN;
     cin >> N;
 
