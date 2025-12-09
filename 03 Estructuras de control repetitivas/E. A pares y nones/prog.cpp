@@ -19,7 +19,6 @@ int main()
             cuentaN++;
          }
     }     
-    
     promedioA = sumaA / cuentaA;
     promedioN = sumaN / cuentaN;
 
