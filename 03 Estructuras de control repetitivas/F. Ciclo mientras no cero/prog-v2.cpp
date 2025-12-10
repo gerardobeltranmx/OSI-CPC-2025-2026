@@ -7,10 +7,9 @@ int main()
 
     cin >> dato;  
     suma = dato;  
+    
     while(dato!=0){
-
         cin >> dato;
-
         suma = suma + dato;
     }
     
