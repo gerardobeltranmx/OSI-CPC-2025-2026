@@ -14,23 +14,15 @@ int main()
         mayor = dato; // suponemos que el primer es el mayor y menor
         menor = dato;
         suma = dato;
-        for (int i=2; i<=k; i++){ // procesar los datos de la lista
-
+        for (int i=2; i<=k; i++){ // procesar los datos de la list
             cin >> dato;
-
             if (dato>mayor) mayor = dato; // busca el mayor
-
             if (dato<menor) menor = dato; // busca el menor
-
             suma = suma + dato;  // acumula los datos para el promedio
-
         }
-
-    
-
-        if (suma%k == 0)
+        if (suma%k == 0) // sin no hay decimales 
             cout << suma/k << " " << menor << " " << mayor << endl;
-        else
+        else // si hay decimales
             cout<< fixed << setprecision(3) << (float)suma/k << " " << menor << " " << mayor << endl;
             
     }
