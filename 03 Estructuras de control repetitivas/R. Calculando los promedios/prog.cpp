@@ -26,6 +26,8 @@ int main()
 
         }
 
+    
+
         if (suma%k == 0)
             cout << suma/k << " " << menor << " " << mayor << endl;
         else
