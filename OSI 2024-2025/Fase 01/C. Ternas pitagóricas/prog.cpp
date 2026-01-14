@@ -7,7 +7,7 @@ int main()
 
    cin >> n; // numero de ternas
    
-    for (int i=1; i <=n; i++){
+    for (int i=1; i <= n; i++){
         cin >> a >> b >> c; // valores de cada terna
 
         c2 = c * c;
