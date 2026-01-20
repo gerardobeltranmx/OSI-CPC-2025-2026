@@ -2,7 +2,8 @@
 using namespace std;
 int main()
 {
-    int n, d, digito, contador=0;
+    long n;
+    int d, digito, contador=0;
     cin >> n >> d;
 
     while ( n > 0){
