@@ -10,7 +10,7 @@ int main()
      if ( c >= a and c <= b ) 
         cout << "INTERVALO\n";  
      else if (c < a)
-        cout << "IZQUIERDO\n";
+        cout << "IZQUIERDA\n";
      else
         cout << "DERECHA\n";      
 
