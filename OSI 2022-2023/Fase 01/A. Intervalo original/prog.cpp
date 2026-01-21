@@ -5,10 +5,12 @@ int main()
 
      int a, b, c;
 
-     cin >> a >> b >> c;
+     //cin >> a >> b >> c;
+
+     scanf ("%d%d%d", &a, &b, &c );
 
      if ( c >= a and c <= b ) 
-        cout << "INTERVALO\n";  
+        printf("INTERVALO\n");  
      else if (c < a)
         cout << "IZQUIERDA\n";
      else
