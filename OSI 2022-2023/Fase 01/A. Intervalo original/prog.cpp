@@ -14,6 +14,5 @@ int main()
      else
         cout << "DERECHA\n";      
 
-    
     return 0;
 }
