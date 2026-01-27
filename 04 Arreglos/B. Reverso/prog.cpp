@@ -3,9 +3,9 @@ using namespace std;
 int main()
 {
     int N;
-    int datos[1000];
-
     cin >> N; // numero de datos
+    int datos[N];
+
     // entrada de datos para el arreglo
     for (int i=0; i < N; i++){
         cin >> datos[i];
