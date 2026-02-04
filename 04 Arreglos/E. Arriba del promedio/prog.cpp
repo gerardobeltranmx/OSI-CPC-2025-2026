@@ -2,11 +2,9 @@
 #include <iomanip>
 
 using namespace std;
-int main()
-{
-    int n;
+int main(){
     int calif[1000];
-    int suma, contar, c;
+    int n, suma, contar, c;
     float prom, porcentaje;
     cin >> c; // cantidad de casos
     for (int k=0; k< c ; k++){
