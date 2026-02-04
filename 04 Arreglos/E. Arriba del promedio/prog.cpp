@@ -24,7 +24,7 @@ int main()
             if(calif[i] > prom) contar++;
         }
         porcentaje = (float)contar / n * 100;
-        cout << fixed << setprecision(3) << porcentaje << endl;
+        cout << fixed << setprecision(3) << porcentaje <<"%"<< endl;
     }    
     return 0;
 }
