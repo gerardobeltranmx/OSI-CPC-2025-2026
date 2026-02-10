@@ -18,7 +18,7 @@ int main()
     }
 
     for (int i=0; i<P; i++ ){
-        cout << i+1 <<" " << profes[i] << endl;
+        cout << i+1 <<"-" << profes[i] << endl;
     }
 
     
