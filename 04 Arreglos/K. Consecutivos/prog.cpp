@@ -14,7 +14,6 @@ int main()
     }
 
     sort(datos, datos+N, less<int>());
-
     for (int i=0; i<N-1 and consecutivo==true; i++){
         if (datos[i]+1 != datos[i+1])
             consecutivo=false;
