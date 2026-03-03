@@ -5,12 +5,18 @@ int main()
     int M,N, mayor;
     int m[200][200];
     cin >> M >> N;
-
-    mayor = m[0][0];
-
+    // entrada
     for (int i=0; i<M; i++){
         for(int j=0;j<N; j++){
-            if (m[i][i]>mayor){
+            cin >> m [i][j];
+        }
+    }
+
+    mayor = m[0][0];
+    // busqueda
+    for (int i=0; i<M; i++){
+        for(int j=0;j<N; j++){
+            if (m[i][j]>mayor){
                 mayor=m[i][j];
             }
         }
