@@ -16,8 +16,8 @@ int main()
         }
     }
 
-cout << "Tamaño de la Matriz: " << M << " x " <<  N << endl;
-cout << "Números pares marcados con un asterisco en la matriz son:" << endl;
+    cout << "Tamaño de la Matriz: " << M << " x " <<  N << endl;
+    cout << "Números pares marcados con un asterisco en la matriz son:" << endl;
 
     for (int i = 0; i < M; i++)
     {
