@@ -31,12 +31,29 @@ int main()
                 ganoEnrique=true;
             }
         }
-
-
-
-
+    }
+    // verificar diagonales 1
+    if ( m[0][0]==m[1][1] and m[1][1]==m[2][2] and m[0][0]!=-1){
+        if (m[0][0]==0)
+            ganoBeto=true;
+        else 
+            ganoEnrique=true;    
+    }
+    // verificar diagonales 2
+    if ( m[0][2]==m[1][1] and m[1][1]==m[2][0] and m[0][2]!=-1){
+        if (m[0][2]==0)
+            ganoBeto=true;
+        else 
+            ganoEnrique=true;    
     }
 
+    if (ganoBeto==true)
+        cout << "Beto" << " " << suma << endl;
+    else if (ganoEnrique==true)
+        cout << "Enrique" << " " << suma << endl;
+    else
+        cout << "Nadie" << " " << suma << endl;
+    
 
     return 0;
 }
