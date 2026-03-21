@@ -72,7 +72,25 @@ int main()
         cout << sumaFilas[i] << " ";
     cout << endl;
     
-
+    // Mayor de filas
+    for (i=0; i<M; i++)
+        cout << mayorFilas[i] << " ";
+    cout << endl;
     
+    // Menor de filas
+    for (i=0; i<M; i++)
+        cout << menorFilas[i] << " ";
+    cout << endl;
+    
+    // Mayor de columnas
+    for (j=0; j<N; j++)
+        cout << mayorColumnas[j] << " ";
+    cout << endl;
+
+    // Menor de columnas
+    for (j=0; j<N; j++)
+        cout << menorColumnas[j] << " ";
+    cout << endl;
+
     return 0;
 }
