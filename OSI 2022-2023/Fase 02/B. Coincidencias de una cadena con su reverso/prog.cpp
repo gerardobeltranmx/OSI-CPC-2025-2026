@@ -14,7 +14,7 @@ int main()
     }
     // compara caracter a caracter ambas cadenas
     for (i=0; i<strlen(S); i++){
-        if (tolower(S[i])== tolower(R[i])) 
+        if (tolower(S[i]) == tolower(R[i])) 
               contar++;
     } 
 
