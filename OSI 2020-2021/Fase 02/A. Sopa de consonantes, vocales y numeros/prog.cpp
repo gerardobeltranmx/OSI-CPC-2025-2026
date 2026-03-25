@@ -9,7 +9,6 @@ int main()
     int c=0, v=0, d=0;
     char vocales[]="AEIOUaeiou";
     cin >> N;
-
     getchar();
 
     for (i=0; i<N; i++){
