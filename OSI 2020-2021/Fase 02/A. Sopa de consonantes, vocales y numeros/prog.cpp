@@ -7,7 +7,7 @@ int main()
     int N, i, j;
     char linea[100];
     int c=0, v=0, d=0;
-    char vocales[]="AEIOU";
+    char vocales[]="AEIOUaeiou";
     cin >> N;
 
     getchar();
@@ -15,13 +15,13 @@ int main()
     for (i=0; i<N; i++){
         cin.getline(linea, 100);
         for (j=0; j<strlen(linea); j++){
-                if (  strchr(vocales, toupper(linea[j])) ){ // es vocal?
+                if (  strchr(vocales, linea[j]) ){ // es vocal?
                     v++; 
                 }
                 else if  ( isdigit(linea[j]) ){ // es digito?
                     d++;
                 }
-                else if ( isapha(linea[j]) ){ // es consonante?
+                else if ( isalpha(linea[j]) ){ // es consonante?
                     c++;    
                 }
         }
